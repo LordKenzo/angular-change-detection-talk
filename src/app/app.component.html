@@ -1,0 +1,7 @@
+<a routerLink="/modulo1">Modulo 1</a>
+<a routerLink="/modulo2">Modulo 2</a>
+<br>
+<router-outlet></router-outlet>
+<input type="text" [(ngModel)]="label" (keyup.enter)="add()">
+<br>
+<app-list [items]="items"></app-list>
